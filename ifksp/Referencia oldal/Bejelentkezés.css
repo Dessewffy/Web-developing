@@ -1,0 +1,54 @@
+.bejelentkezés-div {
+    padding: 15px;
+    /* border: solid 2px #0a0a0a; 
+    box-shadow: 3 3 4px; */
+    display: inline-block;
+    font-size: 35px;
+    background-color: white;
+    
+}
+
+
+.bejelentkezés-div input {
+    display: block;
+    margin-bottom: 7px;
+    border: solid 3px rgb(82, 82, 238);
+    font-size: 25px; 
+    
+    
+}
+
+
+.bejelentkezés-div button:hover {
+     box-shadow: 1 2 3px; 
+     box-shadow: none;
+}
+
+.bejelentkezés-div input:focus {
+     box-shadow: 3px 3px 4px grey;  
+     
+     
+    
+}  
+
+
+input.rendelés-div[type=checkbox] {
+    box-shadow: none;
+    border: solid 2px black;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    
+    
+}
+
+.form-group button {
+    background: rgb(13, 121, 245);
+    width: auto;
+    height: auto;;
+    font-size: 35px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 1.25rem;
+}    

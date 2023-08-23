@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dessewffy Aurél",
+      "email": "DA@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Kurucz",
+      "email": "benjaminkurucz5@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Kurucz",
+      "email": "benjaminkurucz5@gmail.com"
+    },
+    {
+      "name": "Kurucz",
+      "email": "zaramoth@gmail.hu",
+      "id": 4
+    }
+    
+  ],
+  "comments": []
+}

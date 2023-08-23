@@ -1,0 +1,93 @@
+
+#Könyvek {
+    font-size: 20px;
+    border: solid 3px rgb(82, 82, 238);
+    display: block;
+}
+.rendelés-div {
+    padding: 15px;
+    display: inline-block;
+    font-size: 35px;
+    background-color:rgb(255, 255, 255, 0.8) 
+    
+}
+
+
+.rendelés-div input {
+    display: block;
+    margin-bottom: 7px;
+    border: solid 3px rgb(82, 82, 238);  
+    font-size: 25px; 
+    
+}
+
+
+.rendelés-div button:hover {
+     box-shadow: 1 2 3px; 
+     box-shadow: none;
+}
+
+.rendelés-div input:focus {
+     box-shadow: 3px 3px 4px grey;  
+     
+}  
+
+.form-group button {
+    background: rgb(13, 121, 245);
+    width: auto;
+    height: auto;;
+    font-size: 35px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    
+}
+body {
+    /* background: rgb(249, 252, 252); */
+    background-image: url(https://contextus.hu/wp-content/uploads/2020/10/konyvek-legjobb-konyvek-2019-legjobb-konyvek-idezetek.jpg);
+    background-size:auto;
+    background-position: center;  
+    
+}
+
+nav ol {
+    height:60%; width:30%;
+    overflow:hidden; 
+    overflow-y:scroll;
+    background-color: rgb(240, 198, 108, 0.8);
+    position: absolute; 
+    left: 1000px;
+    top: 50px;
+    font-size: 25px; 
+    
+    
+}
+#listacím {
+    position: absolute; 
+    left: 1000px;
+    top: 9px;
+    
+}
+
+.form-group1 {
+    display:inline block;
+    font-size: 25px
+
+}
+.form-group1 input {
+  width: 20px;
+  height: 20px;
+  box-shadow: none !important ; 
+    
+}
+.fas {
+    color: black; 
+
+    }
+a {
+font-size: 4rem;
+}
+.navigation{
+    background-color:rgba(255, 255, 255, 0);
+}

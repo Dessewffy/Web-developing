@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendelés</title>
+    <link rel="stylesheet" href="Rendelés.css">
+    <script src="https://kit.fontawesome.com/3c4bb973d0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Ez a módosítatlan srcipt: -->
+    <!-- <script src="Rendelés.js"></script>  -->
+
+
+
+</head>
+
+<body>
+    <button class="navigation">
+        <a href="Home.html"><i class="fas fa-home"></i></a>
+
+    </button>
+
+    <form id="Form">
+
+
+        <h1>Rendelés</h1>
+
+
+        <div class="rendelés-div">
+            <div class="form-group">
+                <label for="">Könyvek</label>
+                <select name="Könyvek" id="Könyvek">
+                    <option name="Könyv1" value="Oswald Spengler: A nyugat alkonya">Oswald Spengler: A nyugat alkonya
+                    </option>
+                    <option name="Könyv2"
+                        value="Veszprémy László Bernát:1921 - A Horthy-rendszer megszilárdulásának története">
+                        Veszprémy László Bernát:1921 - A Horthy-rendszer megszilárdulásának története</option>
+                    <option name="Könyv3"
+                        value="Hatos Pál:Rosszfiúk világforradalma - Az 1919-es Magyarországi Tanácsköztársaság története ">
+                        Hatos Pál:Rosszfiúk világforradalma - Az 1919-es Magyarországi Tanácsköztársaság története
+                    </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Darab</label>
+                <input class="form-control" type="number" name="amount-input" value="1" min="0" max="100" step="1">
+                <small class="form-text text-muted">
+                    Minimum 1, maximum 10 db
+                </small>
+            </div>
+
+
+            <div class="form-group1">
+
+
+                Házhozszállítás(990Ft) <input type="radio" value=990 name="Átvétel" checked>
+                <!-- A több opciós szállítási kalkulációt nem tudom kivitelezni -->
+
+                Személyes átvétel(0Ft) <input type="radio" value=0 name="Átvétel">
+                Átvétel automatában(500Ft) <input type="radio" value=500 name="Átvétel">
+
+
+            </div>
+
+            <div class="form-group">
+                Fizetendő:<span class="show-amount">0</span>Ft <br>
+
+                <button onclick="calcAmount()" type="button" class="btn btn-primary">Várható ár</button>
+                <button type="submit"> Megrendelés </button>
+            </div>
+
+        </div>
+    </form>
+
+    <form>
+        <h1 id="listacím">Választható könyvek</h1>
+        <nav>
+
+            <div class="lista">
+                <ol>
+                    <li>Oswald Spengler: A nyugat alkonya <img
+                            src="https://marvin.bline.hu/product_images/656/B949407.JPG" alt="A nyugat alkona"> </li>
+                    <li>Veszprémy László Bernát:1921 - A Horthy-rendszer megszilárdulásának története <img
+                            src="https://marvin.bline.hu/product_images/804/ID22-328181.JPG"
+                            alt="A Horthy-rendszer megszilárdulásának története"> </li>
+                    <li>Hatos Pál:Rosszfiúk világforradalma - Az 1919-es Magyarországi Tanácsköztársaság története <img
+                            src="https://marvin.bline.hu/product_images/1203/ID22-318542.JPG"
+                            alt="Rosszfiuk világforradalma"> </li>
+                </ol>
+
+
+            </div>
+        </nav>
+    </form>
+
+
+
+
+    <script src="Rendelés2.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

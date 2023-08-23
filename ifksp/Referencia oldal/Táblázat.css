@@ -1,0 +1,48 @@
+
+h1 {
+    color: cornsilk;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://skypesuli.hu/assets/images/blog/online-tortenelem-tanar-segit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+table, td, th {
+    border: 2px solid black; 
+    color: rgb(0, 0, 0);  
+    background-color: rgb(247, 240, 176);
+    font-size: 25px;  
+    border-collapse:collapse; 
+    
+    
+    
+}  
+
+caption {
+    font-size: 30px;
+    font-style: bold;
+    background-color: white;
+    margin: 10px;
+    border: black solid 4px; 
+    
+}
+
+.címek thead, th, tr {
+    color: blue; 
+    background: rgb(225, 235, 235);
+}
+
+.fas {
+     font-size: 50px;
+     color: black; 
+     margin-left: 600px;
+     background: white;
+     border: black 4px solid;
+     box-shadow: black 1px 2px 3px;
+    
+}

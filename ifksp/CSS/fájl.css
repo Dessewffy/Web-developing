@@ -1,0 +1,73 @@
+
+
+h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#bio-header
+{
+color: blue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#skills-header {
+    color: darkorange;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.content {
+    color:darkslategrey;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+
+    width: 14%;
+    height: 150px;
+    box-shadow: black 3px 3px 7px;
+    margin: 1%;
+}
+
+.bold
+ {
+font-weight: bold;
+}
+.img-div {
+    background-color: lightblue;
+}
+.text {
+    font-family: fantasy;
+    color: darkorange;
+}
+
+.táblázat {
+    color: darkorchid;
+    margin: 35px;
+    box-shadow: dimgray 3px 4px 6px;
+    font-size: 25;
+    column-span: 12;
+    width: 920px;
+    height: 200px;
+    border: solid black;
+    border-collapse: collapse;
+    text-align: justify;
+    
+
+    
+}
+th {
+    width: 300px;
+    height: 200px;
+}
+td {
+    width: 100px;
+    height: 90px;
+    font-size: 35px;
+}
+.a {
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+}

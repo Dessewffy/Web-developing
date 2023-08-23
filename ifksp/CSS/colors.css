@@ -1,0 +1,15 @@
+#colorDiv  { 
+display: inline-block;
+width: 100px;
+height: 100px;
+background-color:rgba(0, 0, 255, 0.158);
+}
+
+html {
+    background-color: #e0e0e0;
+    background-image: url(https://i0.hippopx.com/photos/818/813/139/background-wood-planks-kunterbunt-color-preview.jpg
+    );
+
+    background-repeat: no-repeat;
+}
+

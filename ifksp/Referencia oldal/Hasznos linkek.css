@@ -1,0 +1,21 @@
+ a:hover {
+    
+    text-shadow: black 0px 1px 3px;
+    
+}
+
+.lista {
+    font-size: 20px;
+}
+body{
+    background: darkkhaki;
+}
+.fab {
+    color: red;
+    
+}
+.fas {
+    color: black;
+    width: 20px;
+    height: 35px;
+}
