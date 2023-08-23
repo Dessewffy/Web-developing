@@ -19,7 +19,7 @@ context.fillRect(canvasWidth / 2, canvasHeight / 2, canvasWidth / 2, canvasHeigh
 */
 var canvasWidth = canvas.width;
 var canvasHeight = canvas.height;
-
+//Óra logika
 for (var unitCounter = 0; unitCounter <= canvasWidth; unitCounter++) {
     if (unitCounter % 3 === 0) {
         context.beginPath();
