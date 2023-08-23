@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: purple;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  background-color: cyan;
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  color: Black;
+  text-decoration: none;
+}
+
+
+.content-container {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 70px; 
+  margin-left: 100px; 
+  margin-right: 100px; 
+}
+
+
+.yellow {
+  background-color: yellow;
+  flex: 1; 
+  overflow-y: auto; 
+}
+
+
+.green {
+  background-color: lime;
+  flex: 1; 
+}
+
+
+.footer {
+  background-color: lightgrey;
+  height: 80px;
+}

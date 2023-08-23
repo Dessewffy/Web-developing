@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: purple;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  background-color: cyan;
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+
+.content-container {
+  display: flex;
+  flex-direction: row; 
+  height: 500px;
+}
+
+
+.yellow {
+  background-color: yellow;
+  flex-grow: 1; 
+}
+
+
+.green {
+  background-color: lime;
+  flex-grow: 1; 
+}

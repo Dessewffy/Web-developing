@@ -1,0 +1,18 @@
+#nameInputField {
+    display: block;
+  border: solid orange
+}
+.my-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .my-button:hover {
+    background-color: white;
+    color: green;
+  }

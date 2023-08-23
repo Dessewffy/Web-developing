@@ -1,0 +1,30 @@
+.Container {
+ 
+ border: solid #4285f4;
+  width:50%;
+}
+
+.red {
+  background: #E67676;
+  color: white;
+}
+.yellow {
+  background: #F2F062;
+  color:white;
+}
+
+.blue {
+  background: #A9E6E6;
+  color:white;
+}
+.purpoil {
+  background: #7692E4;
+  color:white;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin:0px
+}

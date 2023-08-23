@@ -1,0 +1,25 @@
+.container1 {
+  border:solid blue 5px;
+  background:#E67676;
+ 
+ text-align: center;
+ margin:10px 650px;
+ height: 200px;
+ width:200px;
+  
+}
+.container2{
+   border:solid blue 5px;
+  background:#A9E6E6;
+ 
+ text-align: center;
+ margin:10px 650px;
+ height:200px;
+ width:200px;
+}
+
+p {
+  color:white;
+  padding:14%;
+  font-family: 'Baloo Thambi 2', cursive;
+}

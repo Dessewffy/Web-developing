@@ -1,0 +1,15 @@
+{
+   "users": [
+
+       {"id": 1, "name": "Big Tom", "email": "bigtom@gmail.com"},
+       {"id": 2, "name": "Little Jimy", "email": "littlejimy@gmail.com"},
+       {"id": 3, "name": "Mid John", "email": "midjohn@gmail.com"}
+
+   ],
+   "commnets": [
+       {"id":1, "body": "some Commnet", "userId": 1}
+   ]
+   
+
+}
+

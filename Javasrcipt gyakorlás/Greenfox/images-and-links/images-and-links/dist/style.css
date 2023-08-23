@@ -1,0 +1,17 @@
+img {
+  height:150px;
+  width:150px;
+  display:block;
+  text-align: Center;
+  margin:2px;
+}
+
+a {
+font-family: 'Sen', sans-serif;
+  
+}
+div {
+  display: flex;
+  width:200px;
+  
+}

@@ -1,0 +1,41 @@
+/* Nyomtatás gommb */
+@media print {
+.button-container{
+    display: none;
+} 
+}
+
+.text1 {
+    text-align: justify;
+}
+
+h1 {
+    color: rgb(34, 16, 192);
+}
+
+#header2 {
+    text-decoration: underline;
+}
+
+p {
+    border-color: black;
+    border-style: solid ;
+    box-shadow: 5px 5px 5px black;
+    size: 70%;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+
+}
+ 
+.primary {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+
+}
+
+body {
+    background: linear-gradient(to left, #00AAFF, #00ff6C);
+}
