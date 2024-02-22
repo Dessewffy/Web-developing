@@ -1,0 +1,8 @@
+//frontend
+npm create vite@latest frontend -- --template react
+npm install
+
+//backend
+pip3 install flask    
+pip3 install flask-SQLAlchemy  
+pip3 install flask-cors      
